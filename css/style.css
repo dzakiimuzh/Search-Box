@@ -1,0 +1,82 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: quicksand;
+    }
+
+    @font-face {
+        font-family: 'quicksand';
+        src: url('assets/font/Quicksand-Medium.ttf');
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+
+    }
+
+    .container {
+        width: 25%;
+        border-radius: 50px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 55px;
+        transition: .6s;
+
+    }
+
+    .container:hover {
+        box-shadow: 0 12px 15px rgba(0, 0, 0, .18);
+        transform: translateY(-10px);
+
+    }
+
+    .container input {
+        width: 70%;
+        color: #272727;
+        outline: none;
+        letter-spacing: .5px;
+        padding-left: 25px;
+        font-size: 14px;
+        border: none;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #888888;
+        font-size: 13px;
+        letter-spacing: .5px;
+    }
+
+    .container button {
+        width: 45px;
+        transform: translateX(-5px);
+        height: 45px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        background-color: #1D88DA;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border-radius: 50px;
+        border: none;
+        transition: .6s;
+
+    }
+
+    .container button:hover {
+        background-color: #24a0ff;
+    }
+
+    .container img {
+        width: 22px;
+    }
